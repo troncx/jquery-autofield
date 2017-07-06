@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "A jQuery extension that turns any text input into a lockable field",
   "main": "./src/jquery-autofield.js",
+  "style": [
+    "./src/jquery-autofield.css"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

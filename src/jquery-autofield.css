@@ -1,0 +1,50 @@
+/* container */
+.af-container:after{
+    clear: both;
+    content: '';
+    display: table;
+}
+
+/* input */
+.af-container.af-manual input {
+    box-shadow: inset 0 0px 10px -2px #4591B8;
+    padding-right: 28px !important;
+}
+
+/* button */
+.af-container .af-btn {
+    float: right;
+    position: absolute;
+    cursor: pointer;
+    font-size: 16px;
+    padding-top: 12px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+    right: 0;
+    display: none;
+}
+.af-container.af-manual .af-btn {
+    display: block;
+}
+.af-container.af-iconset-emoji.af-manual .af-btn:before {
+    content: "\2716";
+    font-family: Arial, sans-serif;
+}
+.af-container.af-iconset-fontawesome.af-manual .af-btn:before {
+    content: "\f023";
+    font-family: FontAwesome;
+}
+.af-container.af-iconset-fontawesome.af-manual .af-btn:hover:before {
+    content: "\f13e";
+    font-family: FontAwesome;
+}
+/* disabled */
+.af-container.af-disabled input {
+    cursor: not-allowed;
+    background: #eee;
+    box-shadow: none;
+}
+.af-container.af-disabled .af-btn,
+.af-container.af-disabled .af-btn:before {
+    display: none;
+}
