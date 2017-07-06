@@ -1,5 +1,5 @@
 //! jquery-automaticfield
-//! version : 0.0.1b
+//! version : 0.0.2
 //! authors : @charlex
 
 (function($) {
